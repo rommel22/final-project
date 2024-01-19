@@ -2,7 +2,7 @@ import purple from "../assets/Ellipse_p.png";
 import yellow from "../assets/Ellipse_y.png";
 import red from "../assets/Ellipse_r.png";
 import green from "../assets/Ellipse_g.png";
-import UserList from "./userList";
+import UserList from "./UserList.jsx";
 
 import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
