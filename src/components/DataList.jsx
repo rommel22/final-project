@@ -1,5 +1,5 @@
 import more from "../assets/more1.png";
-import UserList from "./userList";
+import UserList from "./UserList.jsx";
 import ava1 from "../assets/Avatar.png";
 
 export default function DataList({ className,title }) {
