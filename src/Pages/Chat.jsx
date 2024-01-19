@@ -1,4 +1,4 @@
-import "../Styling/chat.css";
+import "../Styling/Chat.css";
 import ChatMain from "../components/ChatMain";
 import ChatRoom from "../components/ChatRoom";
 import { useState, useEffect } from "react";
@@ -125,8 +125,6 @@ export default function Chat() {
       />
     );
   }
-
-  // console.log(selectedRoom);
 
   return (
     <div className="page-content">
