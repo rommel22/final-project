@@ -1,0 +1,188 @@
+.earnings {
+  margin: 50px;
+  margin-top: 40px;
+}
+
+.earnings-content-1 {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px;
+
+  gap: 40px;
+}
+
+.earnings-content-2 {
+  margin-top: 40px;
+  display: grid;
+
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: auto auto;
+
+  gap: 40px;
+}
+
+.earnings-graph {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: #fff;
+
+  /* Tables */
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15),
+    0px 3px 6px 0px rgba(75, 81, 91, 0.15);
+  grid-column: 1 / span 1;
+}
+
+.earnings-graph h2 {
+  color: #282d32;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 100% */
+}
+
+.earnings-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #fff;
+
+  /* Tables */
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15),
+    0px 3px 6px 0px rgba(75, 81, 91, 0.15);
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.earnings-list h2 {
+  color: #282d32;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 100% */
+}
+
+.earnings-maps {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #fff;
+
+  /* Tables */
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15),
+    0px 3px 6px 0px rgba(75, 81, 91, 0.15);
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.earnings-maps h2 {
+  color: #282d32;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 100% */
+}
+
+.map-content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.map-top {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-top-1 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.map-bottom-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.earnings-chart {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #fff;
+
+  /* Tables */
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15),
+    0px 3px 6px 0px rgba(75, 81, 91, 0.15);
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.earnings-chart h2 {
+  color: #282d32;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 100% */
+}
+
+.chart-header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.chart-header h2 {
+  color: #282d32;
+  font-family: Heebo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 100% */
+}
+
+.chart-content {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  padding-top: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chart-content p {
+  color: #000;
+  font-family: Heebo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
